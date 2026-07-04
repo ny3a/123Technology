@@ -265,9 +265,9 @@ public class RecipesMegaISAForge implements IRecipePool {
             .itemInputs(
                 GTUtility.getIntegratedCircuit(13),
                 GTModHandler.getModItem("eternalsingularity", "eternal_singularity", 0),
+                GTOreDictUnificator.get(OrePrefixes.circuit, Materials.UIV, 64),
+                GTOreDictUnificator.get(OrePrefixes.circuit, Materials.UEV, 64),
                 GTOreDictUnificator.get(OrePrefixes.circuit, Materials.UHV, 64),
-                GTOreDictUnificator.get(OrePrefixes.circuit, Materials.LuV, 64),
-                GTOreDictUnificator.get(OrePrefixes.circuit, Materials.MAX, 64),
                 ItemList.Robot_Arm_UIV.get(64),
                 ItemList.Robot_Arm_UEV.get(64),
                 ItemList.Robot_Arm_UHV.get(64))

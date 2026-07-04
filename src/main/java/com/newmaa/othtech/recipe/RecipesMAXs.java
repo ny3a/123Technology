@@ -107,7 +107,7 @@ public class RecipesMAXs implements IRecipePool {
                 GTModHandler.getModItem("GoodGenerator", "compactFusionCoil", 16, 2),
                 GTModHandler.getModItem("gregtech", "gt.blockmachines", 1, 15300),
                 GTModHandler.getModItem("tectech", "gt.blockcasingsTT", 16), getUN(64, OrePrefixes.wireFine),
-                getMC(4, OrePrefixes.plateDense), new Object[] { OrePrefixes.circuit.get(Materials.MAX), 64 },
+                getMC(4, OrePrefixes.plateDense), new Object[] { OrePrefixes.circuit.get(Materials.MAX), 16 },
                 getNanites(4, Materials.Eternity), ItemList.Circuit_Chip_QPIC.get(32), ItemList.UHV_Coil.get(64),
                 ItemList.Electric_Pump_MAX.get(1), ItemList.Reactor_Coolant_Sp_6.get(1),
                 ItemList.Reactor_Coolant_Sp_6.get(1), ItemList.Reactor_Coolant_Sp_6.get(1),
