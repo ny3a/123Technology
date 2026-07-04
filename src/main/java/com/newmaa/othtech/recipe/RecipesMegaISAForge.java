@@ -185,7 +185,7 @@ public class RecipesMegaISAForge implements IRecipePool {
             .addTo(ISA);
         GTValues.RA.stdBuilder()
             .itemInputs(
-                GTModHandler.getModItem("gregtech", "gt.blockmachines", 0, 31028),
+                GTModHandler.getModItem("gregtech", "gt.blockmachines", 0, 15560),
                 OTHItemList.beeISAM.get(1),
                 GTModHandler.getModItem("gregtech", "gt.metaitem.03", 16, 4139),
                 ItemList.Field_Generator_UMV.get(4))

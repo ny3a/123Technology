@@ -157,7 +157,7 @@ public class RecipesMain implements IRecipePool {
             .itemInputs(
                 GTModHandler.getModItem("miscutils", "MU-metaitem.01", 0, 32140),
                 getGM(31027, 64),
-                getGM(31028, 64),
+                getGM(15560, 64),
                 getNanites(4, Materials.WhiteDwarfMatter),
                 getNanites(4, Materials.BlackDwarfMatter),
                 getNanites(4, Materials.Universium))
@@ -210,7 +210,7 @@ public class RecipesMain implements IRecipePool {
             .itemInputs(
                 OTHItemList.SteamNeinInOne.get(64),
                 getGM(31027, 64),
-                getGM(31028, 64),
+                getGM(15560, 64),
                 getGM(995, 64),
                 ItemList.Robot_Arm_LuV.get(16),
                 GTOreDictUnificator.get(OrePrefixes.circuit, Materials.UV, 64))
@@ -596,7 +596,7 @@ public class RecipesMain implements IRecipePool {
         RecipeBuilder.builder()
             .itemInputs(
                 GTModHandler.getModItem("gregtech", "gt.blockmachines", 64, 31027),
-                GTModHandler.getModItem("gregtech", "gt.blockmachines", 64, 31028),
+                GTModHandler.getModItem("gregtech", "gt.blockmachines", 64, 15560),
                 GTModHandler.getModItem("gregtech", "gt.blockmachines", 64, 995),
                 GTOreDictUnificator.get(OrePrefixes.circuit, Materials.UHV, 64))
             .itemOutputs(GTModHandler.getModItem("gregtech", "gt.blockmachines", 1, IDs + 24))
